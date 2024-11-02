@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000; /* optional: remove this later */
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+.navbar {
+    height: 76px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-transform: uppercase;
+    padding: 0 20px;
+}
+
+.navbar .logo a img {
+    height: 50px;
+    width: 140px;
+    margin-right: 40px; /* Adds space between logo and nav text */
+}
+
+.navbar .navtext {
+    display: flex;
+    align-items: center;
+    color: black;
+    gap: 20px; /* Space between each nav item */
+    flex: 1; /* Allows navtext to occupy remaining space in navbar */
+    font-size: 14px;
+    overflow-x: hidden;
+}
+
+.navbar .navtext div {
+    padding: 0 10px;
+    text-align: center;
+}
+
+.navbar .navtext div a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+}
+
+.navbar .navtext div:hover,
+.navbar .navtext div a:hover {
+    color: #5F259F;
+    cursor: pointer;
+}
