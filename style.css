@@ -4,7 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
     border: border-box;
 }
-.header{
+.navbar{
     display: flex;
     justify-content: space-between;
     align-items:center;
@@ -12,7 +12,7 @@
     height: 76px;
 }
 
-.header .logo a img{
+header .navbar .nav_logo a img{
     width: 170px;
     height: 62px;
     padding: 7px;
@@ -40,9 +40,16 @@
     color: black;
 }
 
+
 .navitems li a:hover{
     color: #5F259F;
     cursor: pointer;
 }
 
+
+footer .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
